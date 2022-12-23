@@ -1,0 +1,131 @@
+html {
+box-sizing: border-box;
+font-size: 16px;
+} 
+
+box-sizing: inherit; {
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+margin: 0;
+padding: 0;
+font-weight: normal;
+}
+
+ol, ul {
+list-style: none;
+}
+
+body {
+font-family: 'League Spartan', sans-serif;
+}
+.main-h {
+margin-bottom: 11px;
+margin-left: 30px;
+font-size: 80px;
+line-height: 230px;
+font-weight: 400;
+margin-top: 60px
+
+
+
+}
+.main-p {
+margin-bottom: 73px;
+font-size: 40px;
+line-height: 60px;
+margin-left: 30px;
+font-weight: 200;
+width: 960px;
+}
+
+.img-pc {
+display: block;
+width: 960px;
+margin-top: -660px;
+margin-left: 960px;
+}
+.img-p {
+ width: 800px;
+margin-top: -250px;
+margin-left: 70px;   
+    
+}
+
+.info {
+font-size: 22px;
+font-weight: 400;
+margin-left: 30px;
+line-height: 160px;
+text-align: center
+}
+
+.link {
+color: goldenrod;
+}
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  background-image: url("https://cdn1.ozone.ru/s3/multimedia-5/6003663869.jpg");
+
+ 
+  min-height: 980px;
+
+ 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+.container {
+  position: absolute;
+  right: 210px;
+  margin: 20px;
+  max-width: 300px;
+  padding: 16px;
+  background-color: mediumpurple;
+margin-top: 270px;
+
+    
+}
+
+
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+
